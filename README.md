@@ -1,6 +1,9 @@
 # Handwritten Alphabet Recognizer Model
 
-This repository contains a handwritten alphabet recognizer model implemented using Keras and TensorFlow. The model is designed to recognize handwritten alphabet characters. It's a Convolutional Neural Network (CNN) that has been trained on a dataset of handwritten alphabet images.
+This repository contains a handwritten alphabet recognizer model implemented using Keras and TensorFlow. The model is designed to recognize handwritten alphabet characters and can be used for various applications like digit recognition, document processing, and more. It's a Convolutional Neural Network (CNN) that has been trained on a dataset of handwritten alphabet images.
+
+## Overview
+The Handwritten Alphabet Recognizer model is built using Convolutional Neural Networks (CNNs), a powerful deep learning architecture for image classification tasks. The model is trained to recognize individual alphabet characters (A to Z) from handwritten images. The code provided here is a step-by-step guide to train and evaluate the model on your own dataset.
 
 ## Dataset
 The dataset used for training and validation is stored in the `Dataset/` directory. The dataset is organized into subdirectories, where each subdirectory corresponds to a different alphabet character. The dataset contains a variety of handwritten characters from A to Z.
